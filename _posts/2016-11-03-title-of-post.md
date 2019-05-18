@@ -1,14 +1,14 @@
 ---
 layout: post
-title: This is the title of the post
-postHero: /images/shark.jpg
-author: Me, Myself, and I
-authorTwitter: http://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
+title: A wonderful serenity has taken possession of my entire soul.
+postHero: https://picsum.photos/2560/1440
+author: olivia tyson
+authorTwitter: http://twitter.com/miketyson
+gravatar: https://tinyfac.es/data/avatars/A7299C8E-CEFC-47D9-939A-3C8CA0EA4D13-200w.jpeg
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 
-Far far away, behind the word *mountains*, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
 
 <img class="pull-left" src="http://placekitten.com/g/400/200" alt="kitten">
 
