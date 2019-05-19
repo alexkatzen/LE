@@ -328,10 +328,11 @@ h2 ~ p {
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
   margin: 1em auto;
   max-width: 960px;
   overflow: hidden;
-  border: 1px dashed red;
 }
 .bio-box {
   box-sizing: border-box;
