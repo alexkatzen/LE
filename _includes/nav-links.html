@@ -1,4 +1,20 @@
 <li><a href="{{site.baseurl}}/">Home</a></li>
 <li><a href="{{site.baseurl}}/gallery">Gallery</a></li>
-<li><a href="{{site.baseurl}}/blog">Blog</a></li>
+<li class="dropdown">
+  <!-- Blog index link -->
+  <a class="drop-trigger" href="{{site.baseurl}}/blog">Blog</a>
+  <!-- e.g. a non-clickable link as the drop trigger -->
+  <!-- <span class="drop-trigger">Blog</span> -->
+
+  <!-- Dropdown menu ul -->
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+
+    <!-- Liquid to loop through recent posts and generate list items for the dropdown -->
+    {% for post in site.posts limit:5 %}
+      <li><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+
+  </ul>
+</li>
 <li><a href="{{site.baseurl}}{{site.posts.first.url}}">Latest News</a></li>

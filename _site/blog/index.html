@@ -11,10 +11,30 @@
     <body>
       <header class="header">
   <nav>
-    <ul class="header-nav">
+    <ul class="header-nav nav-links">
       <li><a href="/le/">Home</a></li>
 <li><a href="/le/gallery">Gallery</a></li>
-<li><a href="/le/blog">Blog</a></li>
+<li class="dropdown">
+  <!-- Blog index link -->
+  <a class="drop-trigger" href="/le/blog">Blog</a>
+  <!-- e.g. a non-clickable link as the drop trigger -->
+  <!-- <span class="drop-trigger">Blog</span> -->
+
+  <!-- Dropdown menu ul -->
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+
+    <!-- Liquid to loop through recent posts and generate list items for the dropdown -->
+    
+      <li><a href="/le/2019/05/17/new-style-hustle.html">New Style Hustle</a></li>
+    
+      <li><a href="/le/2016/11/04/title-of-second-post.html">Mountains</a></li>
+    
+      <li><a href="/le/2016/11/03/title-of-post.html">A wonderful serenity has taken possession of my entire soul.</a></li>
+    
+
+  </ul>
+</li>
 <li><a href="/le/2019/05/17/new-style-hustle.html">Latest News</a></li>
 
     </ul>
@@ -124,7 +144,27 @@
     <ul class="footer-nav nav-links">
       <li><a href="/le/">Home</a></li>
 <li><a href="/le/gallery">Gallery</a></li>
-<li><a href="/le/blog">Blog</a></li>
+<li class="dropdown">
+  <!-- Blog index link -->
+  <a class="drop-trigger" href="/le/blog">Blog</a>
+  <!-- e.g. a non-clickable link as the drop trigger -->
+  <!-- <span class="drop-trigger">Blog</span> -->
+
+  <!-- Dropdown menu ul -->
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+
+    <!-- Liquid to loop through recent posts and generate list items for the dropdown -->
+    
+      <li><a href="/le/2019/05/17/new-style-hustle.html">New Style Hustle</a></li>
+    
+      <li><a href="/le/2016/11/04/title-of-second-post.html">Mountains</a></li>
+    
+      <li><a href="/le/2016/11/03/title-of-post.html">A wonderful serenity has taken possession of my entire soul.</a></li>
+    
+
+  </ul>
+</li>
 <li><a href="/le/2019/05/17/new-style-hustle.html">Latest News</a></li>
 
     </ul>
