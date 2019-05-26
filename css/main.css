@@ -201,7 +201,7 @@ h2 ~ p {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
   display: none;
   list-style: none;
-  padding: 1em 0 0;
+  padding: 1em 0 1em;
   position: absolute;
   right: 0;
   z-index: 9;
@@ -259,7 +259,7 @@ h2 ~ p {
 }
 
 .footer-nav .drop-menu {
-  transform: translateY(-122%);
+  transform: translateY(-110%);
 }
 .footer-nav .drop-menu:before {
   visibility: hidden;
@@ -272,7 +272,7 @@ h2 ~ p {
   position: absolute;
   right: 1em;
   width: 0;
-  bottom: -18px;
+  bottom: 0;
 }
 
 /* FOOTER STYLES */
