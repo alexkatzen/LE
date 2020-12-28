@@ -5,11 +5,13 @@ function activateGallery() {
   let mainImage = document.querySelector("#gallery-photo > img");
 
   // preload images
-  let newImageSrc  = thumbnail.dataset.largeVersion;
-  let largeVersion = new Image();
-  largeVersion.src = newImageSrc;
 
   thumbnails.forEach(function(thumbnail) {
+
+    let newImageSrc  = thumbnail.dataset.largeVersion;
+    let largeVersion = new Image();
+    largeVersion.src = newImageSrc;
+
     thumbnail.addEventListener("click", function() {
 
       let newImageAlt  = thumbnail.alt;
