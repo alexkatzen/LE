@@ -8,7 +8,7 @@ function activateGallery() {
     thumbnail.addEventListener("click", function() {
       let newImageSrc  = thumbnail.dataset.largeVersion;
       let largeVersion = new Image();
-      largeVersion.src = newImageSrc
+      largeVersion.src = newImageSrc;
 
       let newImageAlt  = thumbnail.alt;
       let currentClass = "current";
